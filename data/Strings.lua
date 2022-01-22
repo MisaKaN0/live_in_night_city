@@ -986,60 +986,60 @@ local Strings = {
         }
     },
     ["th-th"] = { -- Thai
-        thirst = "Thirst",
-        hunger = "Hunger",
-        fatigue = "Fatigue",
+        thirst = "ความกระหาย",
+        hunger = "ความหิว",
+        fatigue = "ความเหนื่อยล้า",
         step = {
             thirst = {
-                "You are hydrated, ",
-                "Low Dehydration, ",
-                "Dehydration, ",
-                "Severe Dehydration, ",
+                "ระบบฟื้นฟูความกระหายเสร็จสิ้น",
+                "คร่างกายกำลังขาดน้ำ, ",
+                "คร่างกายเกิดภาวะขาดน้ำ, ",
+                "เกิดภาวะขาดน้ำขั้นรุนแรง!!, ",
             },
             hunger = {
-                "You are fed, ",
-                "Low Undernourishment, ",
-                "Undernourishment, ",
-                "Severe Undernourishment, ",
+                "ระบบฟื้นฟูความหิวเสร็จสิ้น, ",
+                "ร่างกายกำลังขาดสารอาหาร, ",
+                "ร่างกายขาดสารอาหาร, ",
+                "เกิดภาวะขาดสารอาหารขั้นรุนแรง!!, ",
             },
             fatigue = {
-                "You are rested, ",
-                "Low Exhaustion, ",
-                "Exhaustion, ",
-                "Severe Exhaustion, ",
+                "ระบบฟื้นฟูความเหนื่อยล้าเสร็จสิ้น, ",
+                "ร่างกายกำลังอ่อนเพลีย, ",
+                "คร่างกายเกิดความเหนื่อยล้า, ",
+                "ร่างกายต้องการฟื้นฟูความเหนื่อยล้า!!, ",
             }
         },
         settings = {
             category = {
-                game = "Game Settings",
-                display = "Display Settings"
+                game = "ตั้งค่าเกม",
+                display = "ตั้งค่าต่างหน้าแสดงผล"
             },
             options = {
                 difficulty = {
-                    label = "Difficulty",
-                    description = "Defines the amount of debuffs applied when your needs are low."
+                    label = "ระดับความยาก",
+                    description = "กำหนดระดับผลกระทบที่เกิดขึ้นหากเพิกเฉยต่อความต้องการ"
                 },
                 decay = {
-                    label = "Metabolism decay rate",
-                    description = "Defines the needs degradation speed (value > 1 = slower degradation / value < 1 = faster degradation)."
+                    label = "อัตราการสลายตัวของเมตาบอลิซึม",
+                    description = "กำหนดความเร็วในการลดความต้องการ (ค่า > 1 = ความต้องการลดช้าลง / ค่า < 1 = ความต้องการลดเร็วขึ้น)"
                 },
                 effect = {
-                    label = "Visual effects",
-                    description = "Enable/Disable display of visual effects when needs are low."
+                    label = "เอฟเฟกต์ภาพ",
+                    description = "เปิด/ปิด การแสดงผลเอฟเฟกต์ภาพเมื่อมีความต้องการต่ำ"
                 },
                 notif = {
-                    label = "Notifications",
-                    description = "Enable/Disable the display of automatic needs level notifications."
+                    label = "การแจ้งเตือน",
+                    description = "เปิด/ปิด ระบบการแจ้งเตือนระดับความต้องการอัตโนมัติ"
                 },
                 warning = {
-                    label = "Status warning",
-                    description = "Enable/Disable display of detailed status warning during notifications."
+                    label = "คำเตือนสถานะ",
+                    description = "เปิด/ปิด ระบบคำเตือนสถานะโดยละเอียดระหว่างการแจ้งเตือน"
                 },
             },
             difficulty = {
-                [1] = "Easy",
-                [2] = "Normal",
-                [3] = "Hard",
+                [1] = "ง่าย",
+                [2] = "ปกติ",
+                [3] = "ยาก",
             }
         }
     }
